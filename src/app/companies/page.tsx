@@ -9,7 +9,7 @@ import { Status } from '@/app/components/status-label';
 
 // export interface PageProps {}
 
-export default function Page() {
+export default async function Page() {
   return (
     <>
       <Header>Companies</Header>
