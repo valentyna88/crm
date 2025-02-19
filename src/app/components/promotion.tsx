@@ -5,6 +5,7 @@ import { Promotion } from '@/lib/api';
 export interface PromotionProps {
   promotion: Promotion;
 }
+
 export default function Promotion({ promotion }: PromotionProps) {
   return (
     <div className="rounded overflow-hidden	bg-gray-100">

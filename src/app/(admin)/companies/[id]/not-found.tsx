@@ -1,9 +1,11 @@
-import Link from 'next/link';
+'use client';
+
 import React from 'react';
+import Link from 'next/link';
 
-// export interface NotFoundProps {}
+export interface NotFoundProps {}
 
-export default function NotFound() {
+export default function NotFound({}: NotFoundProps) {
   return (
     <div>
       <p>Could not found company</p>

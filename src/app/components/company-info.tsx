@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { useQuery } from '@tanstack/react-query';
@@ -8,6 +9,7 @@ import StatusLabel from '@/app/components/status-label';
 export interface CompanyInfoProps {
   companyId: string;
 }
+
 export default function CompanyInfo({ companyId }: CompanyInfoProps) {
   const { data: company } = useQuery({
     queryKey: ['companies', companyId],
