@@ -5,8 +5,6 @@ import { useQuery } from '@tanstack/react-query';
 import { getCompanies } from '@/lib/api';
 import CompanyRow from '@/app/components/company-row';
 
-// export interface CompanyTableProps {}
-
 const headers = [
   'Category',
   'Company',

@@ -10,6 +10,7 @@ export interface PageProps {
 
 export default function Page({ params }: PageProps) {
   const router = useRouter();
+
   return (
     <PromotionFormModal
       companyId={params.id}

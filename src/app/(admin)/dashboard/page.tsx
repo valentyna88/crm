@@ -1,7 +1,5 @@
-import Header from '@/app/components/header';
 import React from 'react';
-
-// export interface PageProps {}
+import Header from '@/app/components/header';
 
 export default function Page() {
   return (

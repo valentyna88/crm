@@ -2,8 +2,6 @@
 
 import React from 'react';
 
-// export interface GlobalErrorProps {}
-
 export default function GlobalError() {
   return (
     <html>

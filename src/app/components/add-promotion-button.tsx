@@ -12,6 +12,7 @@ export default function AddPromotionButton({
   companyId,
 }: AddPromotionButtonProps) {
   const router = useRouter();
+
   return (
     <Button
       onClick={() =>
