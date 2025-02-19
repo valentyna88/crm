@@ -1,7 +1,7 @@
 import React from 'react';
 import Toolbar from '@/app/components/toolbar';
-import AddPromotionButton from '@/app/components/add-promotion-button';
 import SearchInput from '@/app/components/search-input';
+import AddPromotionButton from '@/app/components/add-promotion-button';
 
 export interface PageProps {
   params: { id: string };
